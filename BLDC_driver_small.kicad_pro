@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2032
+          "min_clearance": 0.15239999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -125,7 +125,9 @@
         0.254,
         0.3048,
         0.508,
-        0.762
+        0.762,
+        1.0,
+        1.5
       ],
       "via_dimensions": [
         {
@@ -371,9 +373,7 @@
     "pinned_footprint_libs": [
       "fraciscoestar"
     ],
-    "pinned_symbol_libs": [
-      "fraciscoestar"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "BLDC_driver_small.kicad_pro",
